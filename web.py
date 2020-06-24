@@ -10,7 +10,6 @@ def index():
 @app.route('/featurex')
 def featurex():
     # implementation of featurex
-    # implementation of featurex1
     return "Feature x page"
 
 
