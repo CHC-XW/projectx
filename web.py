@@ -7,5 +7,11 @@ def index():
     
     return "Index page"
 
+@app.route('/featurex')
+def featurex():
+    
+    return "Feature x page"
+
+
 if __name__ == '__main__':
     app.run()
