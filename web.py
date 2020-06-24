@@ -4,7 +4,8 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    print "OK"; 
+    # index page
+    print("OK"); 
     return "Index page"
 
 @app.route('/featurex')
